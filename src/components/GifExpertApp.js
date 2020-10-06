@@ -5,7 +5,7 @@ import GifGrid from './GifGrid';
 
 
 const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['One Puch']);
+    const [categories, setCategories] = useState(['One Punch']);
 
     // const handleAdd  = () => {
     //   // setCategories(['Hunter X', ...categories ]);//Con operador Spread retorna directo el []
@@ -28,7 +28,6 @@ const GifExpertApp = () => {
                     category={ category }
                   />
                ))
-
           }
         </ol>
       </>

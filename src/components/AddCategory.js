@@ -15,7 +15,7 @@ const AddCategory = ({ setCategories }) => {
 			e.preventDefault();
 			// console.log('Submit Hecho');
 			if (inputValue.trim().length > 2) {
-				setCategories(cate => [...cate, inputValue ]);
+				setCategories(cate => [ inputValue, ...cate, ]);
 				setInputValue('');
 			}
 			
@@ -30,7 +30,7 @@ const AddCategory = ({ setCategories }) => {
 						type="text" 
 						value={ inputValue }
 						onChange={ handleInputChange }//esto se va a disparar cada vez que la caja de texto cambie y en onChange.
-						//es dispara un cambio
+						//dispara un cambio
 					/>
 				</form>
         
