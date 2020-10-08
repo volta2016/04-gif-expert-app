@@ -7,18 +7,22 @@ body {
 }
 
 input {
-  color: 	mediumseagreen;
+  color: 	MediumBlue;
   width: 100%;
   font-size: 1rem;
   padding: .4rem;
+  border: 1px solid MediumBlue;
 }
 
 .card-grid {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
 .card {
+  width: 200px;
+  height: fit-content;
   align-content: center;
   border-radius: 6px;
   margin: 0 10px 10px 0;
@@ -30,7 +34,6 @@ input {
 /* width: 200px; */
 .card img {
   max-width: 200px;
-  width: 100%;
 }
 
 .card p {
