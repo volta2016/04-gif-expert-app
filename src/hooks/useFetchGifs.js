@@ -13,15 +13,14 @@ export const useFetchGifs = (category) => {
         
         getGifs(category)
             .then(imgs => {
-                setTimeout(() => {
-                    console.log(imgs)
+                    // console.log(imgs);
                     setState({
                         data: imgs,
                         loading: false
                     });
-                }, 3000)
-            })
+                })
     }, [category])
+    // se hace el efecto cuando cambia la categotía.
 
    
      
