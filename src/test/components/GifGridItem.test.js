@@ -22,15 +22,23 @@ describe('Pruebas en <GifGridItem />', () => {
 
   })
 
-  test('debe de tener la imagen a la url de los props', () => {
+  test('debe de tener la imagen al url y el alt de los props', () => {
 
     const img = wrapper.find('img');
     // console.log(img.prop('src'));
     expect(img.prop('src')).toBe(url);
     expect(img.prop('alt')).toBe(title);
   })
-  
-  
-  
+
+  test('debe tener la class animate__fadeIn', () => {
+    
+    
+    const div = wrapper.find('div');
+    // console.log(div.prop('className'));
+    const className = div.prop('className');
+    expect(className.includes('animate__fadeIn')).toBe(true);
+
+    // expect(div.find('.animate__fadeIn').hasClass('animate__fadeIn')).toEqual(false);
+  });
 });
 
