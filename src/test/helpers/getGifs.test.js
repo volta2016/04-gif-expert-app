@@ -15,6 +15,11 @@ describe('Pruebas con gitGifs Fetch', () => {
     // console.log(gifs);gifs.length)[]
     expect(gifs.length).toBe(0);
   })
+
+  test('no debe de postiar la informacion con submit', () => {
+    
+  })
+  
   
   
 });

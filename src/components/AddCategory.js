@@ -7,20 +7,20 @@ import PropTypes from 'prop-types';
 const AddCategory = ({ setCategories }) => {
 		const  [inputValue, setInputValue] = useState('');//''por defec -  si lo dejo vacío es undefined
 		const handleInputChange = (e) => {
-			setInputValue(e.target.value);//esta es la f() que va actualizar el estado
+			setInputValue(e.target.value);//f() que va actualizar el estado
 
-			console.log('handleInputChange ok');
+			// console.log('handleInputChange ok');
 		}
 
 		const handleSubmit = (e) => {
 			e.preventDefault();
-			// console.log('Submit Hecho');
+
+			console.log('Submit Hecho', inputValue);
 			if (inputValue.trim().length > 2) {
 				setCategories(cate => [ inputValue, ...cate, ]);
 				setInputValue('');
 			}
-			
-
+		
 		}
 
     return (
