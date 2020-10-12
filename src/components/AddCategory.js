@@ -7,7 +7,9 @@ import PropTypes from 'prop-types';
 const AddCategory = ({ setCategories }) => {
 		const  [inputValue, setInputValue] = useState('');//''por defec -  si lo dejo vacío es undefined
 		const handleInputChange = (e) => {
-			setInputValue(e.target.value)//esta es la f() que va actualizar el estado
+			setInputValue(e.target.value);//esta es la f() que va actualizar el estado
+
+			console.log('handleInputChange ok');
 		}
 
 		const handleSubmit = (e) => {
@@ -25,6 +27,7 @@ const AddCategory = ({ setCategories }) => {
         
 				<form onSubmit={ handleSubmit }>
 					
+					<p>{ inputValue }</p>
 					<input 
 						type="text" 
 						value={ inputValue }
