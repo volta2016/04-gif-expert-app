@@ -32,7 +32,5 @@ describe('Prueba en el componente <AddCategory />', () => {
     expect(setCategories).not.toHaveBeenCalled();
 
   });
-  
-  
-  
+    
 });

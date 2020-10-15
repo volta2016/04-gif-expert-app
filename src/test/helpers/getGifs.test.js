@@ -20,6 +20,4 @@ describe('Pruebas con gitGifs Fetch', () => {
     
   })
   
-  
-  
 });
