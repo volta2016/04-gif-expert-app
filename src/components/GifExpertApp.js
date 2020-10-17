@@ -4,8 +4,9 @@ import GifGrid from './GifGrid';
 
 
 
-const GifExpertApp = () => {
-    const [categories, setCategories] = useState(['One Punch']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+    // const [categories, setCategories] = useState(['One Punch']);
+    const [categories, setCategories] = useState(defaultCategories);
 
     return (
       <>
