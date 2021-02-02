@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <figure>
-        <img className="btn__search" src={logoGif} alt="Logo Gif expert App" />
+        <img className="btn__search" src={`.${logoGif}`} alt="Logo Gif expert App" />
       </figure>
     </header>
   )

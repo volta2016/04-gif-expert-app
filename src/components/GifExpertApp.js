@@ -15,7 +15,7 @@ const GifExpertApp = ({ defaultCategories = [] }) => {
       <>
         <Header />
         <div className="container">
-          <h2>Find your favorite gif 😄</h2>
+          <h2>Find your favorite gif <span role="img" aria-label="smile">😄</span></h2>
           < AddCategory setCategories={ setCategories }/>
           <hr></hr>
           

@@ -37,7 +37,7 @@ const AddCategory = ({categories, setCategories }) => {
 						{/* va a disparar cada vez que la caja de texto cambie y en onChange.
 						dispara un cambio */}
 						<button type="submit" onChange={ handleSubmit }>
-							<img className="search__btn" src={btnSearch} alt="button search" />
+							<img className="search__btn" src={`.${btnSearch}`} alt="button search" />
 						</button>
 					</div>
 					<button className="search__btn--clear" onClick={handleClear}>Clear Gifs</button>

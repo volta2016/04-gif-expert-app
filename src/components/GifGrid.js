@@ -11,7 +11,7 @@ const GifGrid = ({category}) => {
 
     return (
         <>
-            <h3 className="card-grid animate__animated animate__fadeIn">{ category } 🌟</h3>
+            <h3 className="card-grid animate__animated animate__fadeIn">{ category } <span role="img" aria-label="stars">🌟</span></h3>
             { loading && <div className="spinner"></div>}
 
             <div className="card-grid" >
