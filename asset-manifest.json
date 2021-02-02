@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/04-gif-expert-app/static/css/main.d930af71.chunk.css",
+    "main.js": "/04-gif-expert-app/static/js/main.16dc9352.chunk.js",
+    "main.js.map": "/04-gif-expert-app/static/js/main.16dc9352.chunk.js.map",
+    "runtime-main.js": "/04-gif-expert-app/static/js/runtime-main.b0935dcc.js",
+    "runtime-main.js.map": "/04-gif-expert-app/static/js/runtime-main.b0935dcc.js.map",
+    "static/js/2.ceb28f97.chunk.js": "/04-gif-expert-app/static/js/2.ceb28f97.chunk.js",
+    "static/js/2.ceb28f97.chunk.js.map": "/04-gif-expert-app/static/js/2.ceb28f97.chunk.js.map",
+    "index.html": "/04-gif-expert-app/index.html",
+    "precache-manifest.7a5aa54a90fd5bb1ac5c9a74ef662f04.js": "/04-gif-expert-app/precache-manifest.7a5aa54a90fd5bb1ac5c9a74ef662f04.js",
+    "service-worker.js": "/04-gif-expert-app/service-worker.js",
+    "static/css/main.d930af71.chunk.css.map": "/04-gif-expert-app/static/css/main.d930af71.chunk.css.map",
+    "static/js/2.ceb28f97.chunk.js.LICENSE.txt": "/04-gif-expert-app/static/js/2.ceb28f97.chunk.js.LICENSE.txt",
+    "static/media/logo-gif-expert-app.svg": "/04-gif-expert-app/static/media/logo-gif-expert-app.640560cd.svg",
+    "static/media/search.svg": "/04-gif-expert-app/static/media/search.9f64d783.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b0935dcc.js",
+    "static/js/2.ceb28f97.chunk.js",
+    "static/css/main.d930af71.chunk.css",
+    "static/js/main.16dc9352.chunk.js"
+  ]
+}
