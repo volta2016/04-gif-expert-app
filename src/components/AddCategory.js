@@ -41,9 +41,7 @@ const AddCategory = ({categories, setCategories }) => {
 						</button>
 					</div>
 					<button className="search__btn--clear" onClick={handleClear}>Clear Gifs</button>
-				
 				</form>
-        
     )
 }
 
