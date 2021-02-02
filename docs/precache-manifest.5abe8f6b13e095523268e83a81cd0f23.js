@@ -25,10 +25,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "640560cd6b1cf39d88047465f38337db",
-    "url": "/static/media/logo-gif-expert-app.640560cd.svg"
+    "url": "./static/media/logo-gif-expert-app.640560cd.svg"
   },
   {
     "revision": "9f64d7836cc0c1c23267015ce1ad74f6",
-    "url": "/static/media/search.9f64d783.svg"
+    "url": "./static/media/search.9f64d783.svg"
   }
 ]);
