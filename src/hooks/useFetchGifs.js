@@ -17,14 +17,9 @@ export const useFetchGifs = (category) => {
                     setState({
                         data: imgs,
                         loading: false
-                    });
+                    }); 
                 })
     }, [category])
     // se hace el efecto cuando cambia la categotía.
-
-   
-     
-
     return state;// {data[], loading: true};
-
 }

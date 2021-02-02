@@ -11,7 +11,7 @@ const GifExpertApp = () => {
       // setCategories(cate => [...cate, 'Hunter']);
       //en el setCategorie recibe un callback, donde el 1er argumento
       //es valor del estado anterior. y luego tiene que regresar el nuevo estado.
-
+      // default props{ defaultCategories = [] }
     } 
 
     return (

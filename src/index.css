@@ -3,15 +3,25 @@
 }
 
 body {
-  padding: 60px;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #d8c9fd;
+}
+h2, h3, p {
+  color: #5B4C9A;
+}
+a {
+  text-decoration: none;
+  color: #5B4C9A;
 }
 
 input {
-  color: 	MediumBlue;
-  width: 100%;
+  color:  #5a3ccf;
+  width: 98%;
   font-size: 1rem;
   padding: .4rem;
-  border: 1px solid MediumBlue;
+  border: 1px solid #5a3ccf;
 }
 
 input:focus {
@@ -19,21 +29,65 @@ input:focus {
   box-shadow: 0px 0px 3px 0px darkblue inset;
 }
 
+ol {
+  padding: 0;
+}
+
+figure img {
+  max-height: 86px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+  outline:none;
+  border: 0;
+  background-color: #a190c4;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;  
+}
+
+button img {
+  height: 16px;
+}
+.search__btn--clear {
+  font-weight: bold;
+  color: #48339b;
+  margin-top: .8rem;
+  background-color: #a190c4;
+  border-radius: 10px;
+  padding: .5rem;
+  transition: 0.3s;  
+}
+.search__btn--clear:hover {
+  background-color: #8874af;
+}
+.container {
+  padding: 30px;
+  margin: auto;
+
+}
 .card-grid {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
 .card {
+  align-content: center;
+  background-color: white;
   width: 200px;
   height: fit-content;
-  align-content: center;
   border-radius: 6px;
   margin: 0 10px 10px 0;
   overflow: hidden;
-  -webkit-box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 5px 1px rgb(66 1 109 / 47%);
+  box-shadow: 0px 0px 5px 1px rgb(66 1 109 / 47%);
 }
 
 /* width: 200px; */
@@ -45,4 +99,55 @@ input:focus {
   padding: .5rem;
   text-align: center;
   margin: 0 auto;
+}
+
+
+.search {
+  display: flex;
+}
+.search__btn {
+  background: none;
+  box-sizing: border-box;
+  vertical-align: middle;
+  padding: 0 0.5rem;
+}
+
+.spinner {
+  border: 4px solid rgb(0, 0, 0, .1);
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-left-color: #5B4C9A;
+  animation: spin 1s ease infinite;
+}
+
+.line {
+  border: 2px solid #a190c4;
+  margin-bottom: .5rem;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    padding: 15px 20px;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .card img {
+    object-fit: contain;
+    width: 100%;
+    max-width: none;
+  }
 }

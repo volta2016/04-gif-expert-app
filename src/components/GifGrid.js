@@ -11,19 +11,13 @@ const GifGrid = ({category}) => {
 
     return (
         <>
-            <h3 className="card-grid animate__animated animate__fadeIn">{ category }</h3>
-
-            { loading && <p className="animate__animated animate__flash">Loading</p>}
+            <h3 className="card-grid animate__animated animate__fadeIn">{ category } 🌟</h3>
+            { loading && <div className="spinner"></div>}
 
             <div className="card-grid" >
-                {
-                    images.map((img) => (
-                        <GifGridItem 
-                            key={img.id} 
-                            { ...img } 
-                        />
-                    ))
-                }
+                {images.map((img) => (
+                    <GifGridItem key={img.id} { ...img } />
+                ))}
             </div>
         </>
     )
