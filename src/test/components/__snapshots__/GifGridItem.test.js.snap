@@ -6,7 +6,7 @@ exports[`Pruebas en <GifGridItem /> debe de mostrar el componente correctamente 
 >
   <img
     alt="Un Título"
-    src="https://localhost/algo.jpg"
+    src="https://localhost:3000/algo.jpg"
   />
   <p>
     Un Título
