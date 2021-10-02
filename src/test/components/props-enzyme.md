@@ -3,6 +3,23 @@ toBe() > lo que tienen que ser o lo que esperamos que sea
 shallow hace una captura del
 find() > busca un elemento del DOM
 
+```js
+const can = {
+	name: "pamplemousse",
+	ounces: 12,
+};
+
+describe("the can", () => {
+	test("has 12 ounces", () => {
+		expect(can.ounces).toBe(12);
+	});
+
+	test("has a sophisticated name", () => {
+		expect(can.name).toBe("pamplemousse");
+	});
+});
+```
+
 const img = wrapper.find("img");
 // console.log(img.prop('src'));
 console.log(img.html());
@@ -19,3 +36,7 @@ como esto es un string ahora puedo preguntar si className.include("nameclass") e
 expect(className.includes("animate\_\_fadeIn")).toBe(true);
 
 expect(className.includes("animate\_\_fadeIn”)).not.toBe(true); > para hacer la negación o pasando toBe(false)
+
+const drink = jest.fn(); > para referenciar una función con jest puede ser pasada como un callback drink
+
+.toHaveBeenCalled(); > para asgurarse que ha llamado una función simulada

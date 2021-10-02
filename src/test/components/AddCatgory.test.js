@@ -39,7 +39,7 @@ describe("Prueba en el componente <AddCategory />", () => {
 
 		// 3. el set category se debe haber llamado por lo menos una vez
 		expect(setCategories).toHaveBeenCalled();
-		// expect(setCategories).toHaveBeenCalledTimes(2);
+		// expect(setCategories).toHaveBeenCalledTimes(1);
 		expect(setCategories).toHaveBeenCalledWith(expect.any(Function));
 
 		// 4. evualuar si la caja de texto se limpio - el valr del input debe estar ''
