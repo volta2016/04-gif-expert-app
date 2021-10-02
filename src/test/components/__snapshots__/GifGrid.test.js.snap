@@ -6,24 +6,36 @@ exports[`debe de hacer un snapshot de <GifGrid/> debe de mostrar el componente c
     className="card-grid animate__animated animate__fadeIn"
   >
     One Punch
+     
+    <span
+      aria-label="stars"
+      role="img"
+    >
+      🌟
+    </span>
   </h3>
-  <p
-    className="animate__animated animate__flash"
-  >
-    Loading
-  </p>
+  <div
+    className="spinner"
+  />
   <div
     className="card-grid"
   />
 </Fragment>
 `;
 
-exports[`debe de hacer un snapshot de <GifGrid/> debe de mostrar items cuando se cargan imagenes con useFetchGifs 1`] = `
+exports[`debe de hacer un snapshot de <GifGrid/> debe de mostrar items cuando se cargan imágenes con useFetchGifs 1`] = `
 <Fragment>
   <h3
     className="card-grid animate__animated animate__fadeIn"
   >
     One Punch
+     
+    <span
+      aria-label="stars"
+      role="img"
+    >
+      🌟
+    </span>
   </h3>
   <div
     className="card-grid"
@@ -34,20 +46,6 @@ exports[`debe de hacer un snapshot de <GifGrid/> debe de mostrar items cuando se
       title="Title pass test"
       url="https://localhost/random/object.jpg"
     />
-  </div>
-</Fragment>
-`;
-
-exports[`debe de hacer un snapshot de <GifGrid/> debe de mostrar items cuando se cargan imágenes con useFetchGifs 1`] = `
-<Fragment>
-  <h3
-    className="card-grid animate__animated animate__fadeIn"
-  >
-    One Punch
-  </h3>
-  <div
-    className="card-grid"
-  >
     <GifGridItem
       id="ABC"
       key="ABC"
