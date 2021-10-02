@@ -5,10 +5,30 @@ exports[`Prueba en el componente <AddCategory /> debe mostrarse correctamente 1`
   onSubmit={[Function]}
 >
   <p />
-  <input
-    onChange={[Function]}
-    type="text"
-    value=""
-  />
+  <div
+    className="search"
+  >
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      onChange={[Function]}
+      type="submit"
+    >
+      <img
+        alt="button search"
+        className="search__btn"
+        src=".search.svg"
+      />
+    </button>
+  </div>
+  <button
+    className="search__btn--clear"
+    onClick={[Function]}
+  >
+    Clear Gifs
+  </button>
 </form>
 `;
