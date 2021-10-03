@@ -40,3 +40,8 @@ expect(className.includes("animate\_\_fadeIn”)).not.toBe(true); > para hacer l
 const drink = jest.fn(); > para referenciar una función con jest puede ser pasada como un callback drink
 
 .toHaveBeenCalled(); > para asgurarse que ha llamado una función simulada
+
+lib para unit test
+https://jestjs.io/docs/expect#tobevalue
+
+https://react-hooks-testing-library.com/
